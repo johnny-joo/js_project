@@ -1,0 +1,63 @@
+*{ 
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+a, a:link, a:visited{
+    text-decoration:none;
+    color:inherit;
+}
+
+li{
+    list-style:none;
+}
+
+.container{
+    width:1140px;
+    margin: 0 auto;
+}
+
+Header{
+    position: fixed;
+    color: white;
+    background-color: black;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    padding: 1rem;
+}
+
+header .container{
+    display: Flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
+header nav ul{
+    display: Flex;
+}
+
+header nav ul li{
+    padding: 10px;
+}
+
+header button{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    color: white;
+}
+
+header h1 button{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+header nav ul li button{
+    font-size: 1.2rem;
+}
+
+
